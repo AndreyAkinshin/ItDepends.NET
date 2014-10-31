@@ -1,0 +1,13 @@
+> systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+OS Name:                   Microsoft Windows 8.1 Single Language
+OS Version:                6.3.9600 N/A Build 9600
+
+> %SystemRoot%\Microsoft.NET\Framework\v3.5\csc.exe Program.cs
+Microsoft (R) Visual C# 2008 Compiler version 3.5.30729.7903
+for Microsoft (R) .NET Framework version 3.5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+> Program.exe
+3
+3
+3
