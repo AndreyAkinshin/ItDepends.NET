@@ -1,0 +1,21 @@
+$ uname -srvmpio ; lsb_release -d
+Linux 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+Description:    Ubuntu 14.04.1 LTS
+
+$ mono --version
+Mono JIT compiler version 3.10.0 (tarball Mon Oct 27 14:33:41 IST 2014)
+Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
+        TLS:           __thread
+        SIGSEGV:       altstack
+        Notifications: epoll
+        Architecture:  amd64
+        Disabled:      none
+        Misc:          softdebug 
+        LLVM:          supported, not enabled.
+        GC:            sgen
+
+$ mcs Program.cs
+
+$ mono Program.exe 
+False
+False
