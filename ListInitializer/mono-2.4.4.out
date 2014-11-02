@@ -1,0 +1,17 @@
+$ uname -srvmpio ; lsb_release -d
+Linux 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:12 UTC 2014 i686 i686 i686 GNU/Linux
+Description:	Ubuntu 14.04.1 LTS
+
+$ mono --version
+Mono JIT compiler version 2.4.4 (tarball Sat Nov  1 15:44:01 IST 2014)
+Copyright (C) 2002-2010 Novell, Inc and Contributors. www.mono-project.com
+	TLS:           __thread
+	GC:            Included Boehm (with typed GC)
+	SIGSEGV:       altstack
+	Notifications: epoll
+	Architecture:  x86
+	Disabled:      none
+
+$ mcs Program.cs
+
+$ monodis Program.exe > mono-2.4.4.il
