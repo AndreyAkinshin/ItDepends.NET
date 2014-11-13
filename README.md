@@ -10,3 +10,4 @@ A collection of small .NET programs with ambiguous behavior. Their behavior may 
 ## Runtime
 * [StructGetHashCode](StructGetHashCode)
 * [UTF8](UTF8)
+* [URI-RFC-3986](URI-RFC-3986)
