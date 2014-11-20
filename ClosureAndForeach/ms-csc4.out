@@ -1,0 +1,12 @@
+> systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+OS Name:                   Microsoft Windows XP Professional
+OS Version:                5.1.2600 Service Pack 3 build 2600
+
+> %SystemRoot%\Microsoft.NET\Framework\v4.0.30319\csc.exe Program.cs
+Microsoft (R) Visual C# 2010 Compiler version 4.0.30319.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+> Program.exe
+3
+3
+3
